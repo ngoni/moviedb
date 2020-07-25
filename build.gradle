@@ -7,7 +7,8 @@ buildscript {
                 gradle : '4.0.0'
         ]
         libVersions = [
-                navigation : '2.2.1'
+                navigation : '2.2.1',
+                hilt : '2.28-alpha'
         ]
     }
     repositories {
@@ -19,6 +20,7 @@ buildscript {
         classpath "com.android.tools.build:gradle:$pluginVersion.gradle"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$pluginVersion.kotlin_version"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$libVersions.navigation"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$libVersions.hilt"
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
