@@ -10,7 +10,9 @@ import androidx.navigation.NavDirections
 import androidx.navigation.Navigation
 import com.scribblex.moviedb.R
 import com.scribblex.moviedb.databinding.FragmentMoviesListBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MoviesListFragment : Fragment() {
 
     private lateinit var binding: FragmentMoviesListBinding
