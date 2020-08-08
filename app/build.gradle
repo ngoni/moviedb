@@ -53,6 +53,13 @@ dependencies {
     implementation "com.google.dagger:hilt-android:$libVersions.hilt"
     kapt "com.google.dagger:hilt-android-compiler:$libVersions.hilt"
 
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$libVersions.retrofit2"
+    implementation "com.squareup.retrofit2:converter-jackson:$libVersions.retrofit2"
+
+    // OkHttp3
+    implementation "com.squareup.okhttp3:okhttp:$libVersions.okhttp3"
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
